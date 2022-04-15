@@ -4,24 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>anketa_if.html</title>
+  <title>ANKETA</title>
 </head>
 <body>
   <script>
-    let ages;
-        let agest = prompt('Сколько вам лет?', '');
-           if (agest > 18) {
-           ages = ('взрослый');
-          } else {
-          ages = ('подросток');
-          }
-        alert(ages); 
-    let age = prompt('Сколько вам лет?');
-        let message = (age < 3) ? 'маленький' :
-        (age < 18) ? 'юнный' :
-        (age < 100) ? 'взрослый' :
-        'пожилой';
-        alert( message );
+    const a=prompt ('Ваше имя:','Александр');
+    const name2=prompt ('Ваше фамилия:','Козловский');
+    const name3=prompt ('Ваше отчество:','Александрович');
+    const eage=prompt ('Ваш возраст в годах:',37);
+    const floor= confirm ('Ваш пол-мужской')
+
+    const fio=(' ваше ФИО: ');
+    alert(fio + ' Козловский Александр Александрович');
+    const b=(' Ваш возраст в годах: ');
+    alert(b + 37);
+    const eages=(' Ваш возраст в днях: ');
+    const c=(37);
+    alert(eages + c*365);
+  
+    const namber=(37);
+    const will=(' Через 5 лет вам будет: ')
+    const result=(namber + 5);
+    alert(will  +  result);
+
+    const nam=(' Ваш пол: ');
+    const floors=(' Мужской ')
+    alert(nam  +  floors);
+    const we=(' Вы на пенсии: ');
+    const no=(' нет ')
+    alert(we  +  no);
   </script>
 </body>
 </html>
