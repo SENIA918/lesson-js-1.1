@@ -6,14 +6,16 @@ const number= 500000;
     console.log(number);
 const football='Да';
     console.log(football === "Да");
+
 let height= 40,
     width= 70,
-    x= 2;
-console.log((height + width) * x);
+console.log(height * width);
+
 let time = 2,
     speedOfFirst = 95,
     speedOfSecond = 114;
     console.log((speedOfFirst + speedOfSecond) * time )
+
 const randomNumber = Math.floor(Math.random() * 100);
     if  (randomNumber < 20) {
         console.log('меньше 20');
@@ -24,6 +26,7 @@ const randomNumber = Math.floor(Math.random() * 100);
         else {
         console.log('больше 20, и меньше 50');
         }
+
 const randomNumbers = Math.floor(Math.random() * 100);
 switch(true) {
     case (randomNumbers < 20) :
